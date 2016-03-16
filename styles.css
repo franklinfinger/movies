@@ -1,0 +1,107 @@
+header {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Oldtown, fantasy;
+  border: 3px solid lightblue;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header h1 {
+  color: #9E53C9;
+  margin-bottom: -40px;
+}
+
+header h6 {
+  color: #53C9BC;
+}
+
+.navbar {
+  border: 2px dotted yellow;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: inline-block;
+  margin-left: 32%;
+}
+
+.navbar li {
+  list-style: none;;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+article {
+  border-bottom: 2px solid lightgreen;
+  margin-bottom: 20px;
+}
+
+.container h3 {
+  font-size: 2.2em;
+  color: red;
+  margin: 10px;
+}
+
+.container h5 {
+  font-size: 1.2em;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-style: oblique;
+}
+
+.container p {
+  font-family: Papyrus, fantasy;
+	font-size: 16px;
+	line-height: 28.6px;
+  margin: 10px;
+}
+
+.container span {
+  font-size: 16px;
+  color: lightblue;
+}
+
+.container img {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  box-shadow: 1px 3px 115px 10px rgba(0,0,0,0.54);
+  -webkit-transition: 1s ease-in-out;
+  transition: .7s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.container img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.container ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.container ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.edit {
+  font-size: 1.2em;
+  background-color: #00cc00;
+}
+
+
+.delete {
+  font-size: 1.2em;
+  background-color: #ff6666;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
